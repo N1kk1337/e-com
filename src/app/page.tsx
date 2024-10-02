@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Header from "./ui/Header/Header";
 
 export default function Home() {
   return (
@@ -49,10 +48,19 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
 
-      </footer>
+      </main>
+
     </div>
   );
 }
