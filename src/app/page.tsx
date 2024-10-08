@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
         />
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Get started by editing{" "}
+            Get started by editing{' '}
             <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
               src/app/page.tsx
             </code>
@@ -48,19 +48,87 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
-        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a sequi eaque quaerat id harum nemo reiciendis, at, facere eos recusandae maxime, laboriosam voluptate temporibus exercitationem magni fuga maiores dolorum.</p></div>
-
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
+            sequi eaque quaerat id harum nemo reiciendis, at, facere eos
+            recusandae maxime, laboriosam voluptate temporibus exercitationem
+            magni fuga maiores dolorum.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
+            sequi eaque quaerat id harum nemo reiciendis, at, facere eos
+            recusandae maxime, laboriosam voluptate temporibus exercitationem
+            magni fuga maiores dolorum.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
+            sequi eaque quaerat id harum nemo reiciendis, at, facere eos
+            recusandae maxime, laboriosam voluptate temporibus exercitationem
+            magni fuga maiores dolorum.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
+            sequi eaque quaerat id harum nemo reiciendis, at, facere eos
+            recusandae maxime, laboriosam voluptate temporibus exercitationem
+            magni fuga maiores dolorum.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
+            sequi eaque quaerat id harum nemo reiciendis, at, facere eos
+            recusandae maxime, laboriosam voluptate temporibus exercitationem
+            magni fuga maiores dolorum.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
+            sequi eaque quaerat id harum nemo reiciendis, at, facere eos
+            recusandae maxime, laboriosam voluptate temporibus exercitationem
+            magni fuga maiores dolorum.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
+            sequi eaque quaerat id harum nemo reiciendis, at, facere eos
+            recusandae maxime, laboriosam voluptate temporibus exercitationem
+            magni fuga maiores dolorum.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
+            sequi eaque quaerat id harum nemo reiciendis, at, facere eos
+            recusandae maxime, laboriosam voluptate temporibus exercitationem
+            magni fuga maiores dolorum.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
+            sequi eaque quaerat id harum nemo reiciendis, at, facere eos
+            recusandae maxime, laboriosam voluptate temporibus exercitationem
+            magni fuga maiores dolorum.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
+            sequi eaque quaerat id harum nemo reiciendis, at, facere eos
+            recusandae maxime, laboriosam voluptate temporibus exercitationem
+            magni fuga maiores dolorum.
+          </p>
+        </div>
       </main>
-
     </div>
   );
 }
