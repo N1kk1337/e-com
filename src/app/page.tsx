@@ -2,6 +2,11 @@ import Image from 'next/image';
 import Button from './ui/Buttons/Button';
 import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
 import StoreButton from './ui/Buttons/StoreButton';
+import EmailInput from './ui/Inputs/EmailInput';
+import SelectInput from './ui/Inputs/SelectInput';
+import SearchInput from './ui/Inputs/SearchInput';
+import FileInput from './ui/Inputs/FileInput';
+import MessageTextarea from './ui/Inputs/MessageTextarea';
 
 export default function Home() {
   return (
@@ -38,6 +43,14 @@ export default function Home() {
           <StoreButton platform="googleplay" variant="dark" />
           <StoreButton platform="amazon" variant="dark" />
           <StoreButton platform="windows" variant="dark" />
+        </div>
+
+        <div className="max-w-md mx-auto space-y-4 p-4">
+          <EmailInput />
+          <SelectInput />
+          <SearchInput />
+          <FileInput />
+          <MessageTextarea />
         </div>
 
         <div>
