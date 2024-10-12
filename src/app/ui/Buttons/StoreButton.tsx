@@ -10,7 +10,7 @@ const StoreButton: React.FC<StoreButtonProps> = ({
   platform,
   variant = 'light',
 }) => {
-  let icon, label, buttonClasses;
+  let icon, label;
 
   switch (platform) {
     case 'appstore':
@@ -58,7 +58,7 @@ const StoreButton: React.FC<StoreButtonProps> = ({
   }
 
   // Определяем стили кнопки в зависимости от варианта
-  buttonClasses =
+  const buttonClasses =
     variant === 'light'
       ? 'flex items-center space-x-4 px-6 py-4 bg-white border-2 border-gray-300 rounded-lg shadow-md hover:shadow-lg transition duration-300 text-gray-800'
       : 'flex items-center space-x-4 px-6 py-4 bg-gray-800 text-white rounded-lg shadow-md hover:shadow-lg transition duration-300';

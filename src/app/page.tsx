@@ -1,4 +1,5 @@
-import Image from 'next/image';
+'use client';
+
 import Button from './ui/Buttons/Button';
 import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
 import StoreButton from './ui/Buttons/StoreButton';
@@ -7,19 +8,20 @@ import SelectInput from './ui/Inputs/SelectInput';
 import SearchInput from './ui/Inputs/SearchInput';
 import FileInput from './ui/Inputs/FileInput';
 import MessageTextarea from './ui/Inputs/MessageTextarea';
+import RadioButton from './ui/Inputs/RadioButton';
+import Checkbox from './ui/Inputs/Checkbox';
+import Switch from './ui/Inputs/Switch';
+import { useState } from 'react';
+import Carousel from './ui/Carousel';
 
 export default function Home() {
+  const [checkboxChecked, setCheckboxChecked] = useState(false);
+  const [radioChecked, setRadioChecked] = useState(false);
+  const [switchChecked, setSwitchChecked] = useState(false);
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
+        <Carousel></Carousel>
         <Button variant="filled" label="Filled Button" />
         <Button variant="rounded" label="Rounded Button" />
         <Button variant="outlined" label="Outlined Button" />
@@ -53,6 +55,35 @@ export default function Home() {
           <MessageTextarea />
         </div>
 
+        <div className="space-y-4 p-8">
+          {/* Checkbox */}
+          <Checkbox
+            label="Checkbox"
+            checked={checkboxChecked}
+            onChange={(checked) => setCheckboxChecked(checked)}
+          />
+          <Checkbox label="Checkbox (Disabled)" disabled />
+
+          {/* Radio Button */}
+          <RadioButton
+            label="Radio"
+            name="demo"
+            checked={radioChecked}
+            onChange={() => setRadioChecked(!radioChecked)}
+          />
+          <RadioButton label="Radio (Disabled)" name="demo" disabled />
+
+          {/* Switch */}
+          <Switch
+            label="Switch"
+            checked={switchChecked}
+            onChange={(checked) => setSwitchChecked(checked)}
+          />
+          <Switch label="Switch (Disabled)" disabled />
+        </div>
+        <div>
+          <Carousel></Carousel>
+        </div>
         <div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore a
